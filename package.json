@@ -1,7 +1,7 @@
 {
   "name": "react-rotulo",
   "author": "Luis Miguel Santamaría Pérez",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Libraría React de componentes tooltips",
   "main": "dist/react-rotulo.js",
   "license": "MIT",
