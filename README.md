@@ -25,6 +25,8 @@ Librería React de componentes tooltips
 
 ## Uso
 
+Basado en el ejemplo de Codrops: [https://tympanus.net/Development/TooltipAnimations/](https://tympanus.net/Development/TooltipAnimations/)
+
 ## Test
 
   `yarn test`

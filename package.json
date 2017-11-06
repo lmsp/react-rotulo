@@ -10,6 +10,9 @@
       "flow",
       "env",
       "react"
+    ],
+    "plugins": [
+      "styled-jsx/babel"
     ]
   },
   "engines": {
@@ -63,8 +66,10 @@
     "release:patch": "changelog -p && git add CHANGELOG.md && git commit -m 'Actualizar CHANGELOG.md' && npm version patch && git push origin master --tags && sudo npm publish"
   },
   "dependencies": {
+    "animejs": "^2.2.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "styled-jsx": "^2.1.2"
   },
   "jest": {
     "setupFiles": [
